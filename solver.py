@@ -58,6 +58,16 @@ class TerminalAttempt:
 
 
 if __name__ == "__main__":
+    # """
+    # sealant
+    # weapons
+    # beating
+    # sending
+    # decline
+    # letting
+    # defense
+    # stating
+    # """
     candidates = ["STOP", "SHOT", "SWAP", "WOMP", "SHOP"]
     attempt = TerminalAttempt(candidates)
     attempt.calculate_similarities()
